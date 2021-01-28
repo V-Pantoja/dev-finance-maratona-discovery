@@ -101,7 +101,7 @@ button:hover {
 /* Header =========================== */
 header {
    background: #2D4A22;
-   padding: 2rem 0 10rem;
+   padding: 2rem 0 15rem;
    text-align: center;
 }
 
@@ -112,7 +112,7 @@ header {
 
 /* Balance ========================== */
 #balance {
-   margin-top: -6rem;
+   margin-top: -8rem;
 }
 
 #balance h2 {
@@ -157,6 +157,8 @@ header {
    display: block;
    width: 100%;
    overflow-x: auto; /* Cria uma barra de rolagem ( auto (caso precisar)) */
+
+   margin-top: 2rem;
 }
 
 #data-table {
@@ -224,6 +226,8 @@ td.expense {
 
    opacity: 0;
    visibility: hidden;
+
+   z-index: 999;
 }
 
 .modal-overlay.active {
@@ -236,6 +240,9 @@ td.expense {
    padding: 2.4rem;
    width: 90%;
    max-width: 500px;
+
+   position: relative;
+   z-index: 1;
 }
 
 /* Form ========================== */
