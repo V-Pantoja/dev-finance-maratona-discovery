@@ -26,7 +26,7 @@
                   </span>
                   <img src="./_imagens/income.svg" alt="Imagem de entradas">
                </h3>
-               <p id="incomeDisplay">R$ 5.000,00</p>
+               <p id="incomeDisplay">R$ 0,00</p>
             </div>
 
             <div class="card">
@@ -36,7 +36,7 @@
                   </span>
                   <img src="./_imagens/expense.svg" alt="Imagem de saídas">
                </h3>
-               <p id="expenseDisplay">R$ 2.000,00</p>
+               <p id="expenseDisplay">R$ 0,00</p>
             </div>
 
             <div class="card total">
@@ -46,7 +46,7 @@
                   </span>
                   <img src="./_imagens/total.svg" alt="Imagem de Total">
                </h3>
-               <p id="totalDisplay">R$ 3.000,00</p>
+               <p id="totalDisplay">R$ 0,00</p>
             </div>
          </section>
 
@@ -71,12 +71,12 @@
          </section>
       </main>
 
-      <div class="modal-overlay active">
+      <div class="modal-overlay">
          <div class="modal">
             <div id="form">
                <h2>Nova Transação</h2>
 
-               <form action="">
+               <form action="" onsubmit="Form.submit(event)">
                   <div class="input-group">
                      <label class="sr-only" for="description">Descrição</label>
                      <input type="text" id="description" name="description" placeholder="Descrição" />
@@ -112,5 +112,4 @@
    </body>
 </html>
 
-
-<!-- Aula 3 >>>>  1:38:00 "Mayke se perdeu na pausa do pomodoro / Mechendo com JavaScript"  -->
+<!-- Aula 03 : ()-->
